@@ -1,0 +1,8 @@
+Videos reales de Velur TV
+=========================
+
+1. Copia aquí los .mp4 del Instagram del club (por ejemplo wes.mp4, tarifa.mp4).
+2. En lib/data/demo_data.dart, en el reel que corresponda, agrega:
+       video: 'assets/videos/wes.mp4',
+   También sirve un enlace https a un .mp4.
+3. Si un reel no tiene video, o el video no carga, la app muestra la animación.
